@@ -1,0 +1,15 @@
+body { 
+    color: darkviolet;
+    background-color: rgb(226, 160, 195);
+    border-style: dotted solid;
+    border-color: deeppink;
+   height: 500px;
+   
+}
+
+label {
+    display: block;
+    font: georgia;
+    border: double;
+
+}

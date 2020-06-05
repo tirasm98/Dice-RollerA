@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller Simulation</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <h1>Are You Ready to Roll?</h1>
+    
+    <label for="Number-of-dice">Enter a Number of Dice!</label>
+    <input type="text" name="number-of-dice" id="number-of-dice" required minlength="1" size=12>
+    
+    <button id="roll-button" type="button">Roll!</button>
+
+    <p>TOTAL:</p><div id="total-rolls"></div>
+    
+    <button id="rolls-list">Show All Rolls!</button>
+    <div id="all-rolls">
+            <ol id="allRolls">
+
+             </ol>
+     </div>
+    <div id="reset-container">
+        <button id="reset-button">Start Over?</button>
+        Round: <span id="reset-num">1</span>
+    </div>
+
+    </body>
+    <script src="./assets/main.js"></script>
+</html>
